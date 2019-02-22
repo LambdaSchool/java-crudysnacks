@@ -13,6 +13,7 @@ public class Customer
     @Column(nullable = false)
     private String name;
 
+    @Column(name = "cashonhand")
     private double cashonhand;
 
     public Customer()
